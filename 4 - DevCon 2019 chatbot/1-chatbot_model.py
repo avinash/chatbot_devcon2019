@@ -1,3 +1,6 @@
+# Contextual Chatbots with Tensorflow
+# https://chatbotsmagazine.com/contextual-chat-bots-with-tensorflow-4391749d0077
+
 # Natural Language Processing
 import nltk
 from nltk.stem.lancaster import LancasterStemmer

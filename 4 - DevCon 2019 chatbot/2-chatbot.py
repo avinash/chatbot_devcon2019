@@ -1,3 +1,6 @@
+# Contextual Chatbots with Tensorflow
+# https://chatbotsmagazine.com/contextual-chat-bots-with-tensorflow-4391749d0077
+
 # we’ll build a simple state-machine to handle responses,
 # using our intents model (from the previous step) as our classifier.
 # that’s how chatbots work.
