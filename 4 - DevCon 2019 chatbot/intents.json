@@ -1,0 +1,146 @@
+{
+   "intents":[
+      {
+         "tag":"technology",
+         "patterns":[
+            "What technology do you use?",
+            "Are you magical?"
+         ],
+         "responses":[
+            "I use TFLearn and TensorFlow",
+            "I am an Artificial intelligence made in Mauritius"
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"whoareyou",
+         "patterns":[
+            "Who are you?",
+            "What can you do?",
+            "What is your sex?",
+            "What is your gender?",
+            "Are you a boy or a girl?"
+         ],
+         "responses":[
+            "I am Azor, the Mauritian Chatbot, and I know about beaches of the island. I am a boy.",
+            "I am a Chatbot made in Mauritius and I advise on the best beaches. My name is Azor."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"greeting",
+         "patterns":[
+            "Hi",
+            "How are you",
+            "Is anyone there?",
+            "Hello",
+            "Good day"
+         ],
+         "responses":[
+            "Hello, thanks for visiting.",
+            "Good to see you again.",
+            "Hi there, how can I help?"
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"goodbye",
+         "patterns":[
+            "Bye",
+            "See you later",
+            "Goodbye"
+         ],
+         "responses":[
+            "See you later, thanks for visiting.",
+            "Have a nice day.",
+            "Bye! Come back again soon."
+         ]
+      },
+      {
+         "tag":"thanks",
+         "patterns":[
+            "Thanks",
+            "Thank you",
+            "That's helpful"
+         ],
+         "responses":[
+            "Happy to help!",
+            "Any time!",
+            "My pleasure."
+         ]
+      },
+      {
+         "tag":"beach",
+         "patterns":[
+            "Beach",
+            "Seaside",
+            "Place to swim"
+         ],
+         "responses":[
+            "Where are you right now?",
+            "In which part of Mauritius do you plan to go?",
+            "Where are you staying at this moment?"
+         ],
+         "context_set": "beach"
+      },
+      {
+         "tag":"beach_north",
+         "patterns":[
+            "North",
+            "Northern",
+            "Grand Baie"
+         ],
+         "responses":[
+            "Trou aux Biches is shallow and calm, with gently shelving sands, making it ideal for families.",
+            "The water is deep at Pereybere but still very calm.",
+            "Mont Choisy is one of the longest beaches in Mauritius.",
+            "La Cuvette is a tucked-away jewel and one of the shortest beaches in Mauritius."
+         ],
+         "context_filter":"beach"
+      },
+      {
+         "tag":"beach_south",
+         "patterns":[
+            "South",
+            "Southern",
+            "Blue Bay",
+            "Souillac"
+         ],
+         "responses":[
+            "Blue Bay is home to the kind of pale aquamarine water that lures people from all around the world.",
+            "If you’re an adventurous type and a strong swimmer, try and make time for a trip to La Cambuse."
+         ],
+         "context_filter":"beach"
+      },
+      {
+         "tag":"beach_east",
+         "patterns":[
+            "East",
+            "Eastern",
+            "Trou d'Eau Douce",
+            "Belle Mare",
+            "Mahebourg"
+         ],
+         "responses":[
+            "The stunning beach of Belle Mare is an amazing place for a cool dawn dip as the sun comes up.",
+            "Tropical idyll Ile aux Cerfs is a fun-packed island for the whole family, though it does tend to get very busy at the weekend."
+         ],
+         "context_filter":"beach"
+      },
+      {
+         "tag":"beach_west",
+         "patterns":[
+            "West",
+            "Western",
+            "Flic en Flac",
+            "Tamarin",
+            "Riviere Noire"
+         ],
+         "responses":[
+            "Flic en Flac is a stunning stretch of talcum-white sand sloping into endless shades of blue water.",
+            "The stunning public beach of Le Morne is backed by the imposing monolith of Le Morne mountain."
+         ],
+         "context_filter":"beach"
+      }
+   ]
+}
