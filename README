@@ -1,0 +1,52 @@
+Summarised in: Artificial intelligence, deep learning and chatbots demystified
+https://www.avinashmeetoo.com/2019/04/24/artificial-intelligence-deep-learning-and-chatbots-demystified/
+
+    A post on my blog going through all the steps I followed during my presentations
+    on How Deep Learning Works and How to Build a Chatbot using Deep Learning
+    during DevCon 2019 in Mauritius
+
+Developer Conference 2019, also known as DevCon 2019, took place in Mauritius from 11 to 13 April 2019.
+
+Presentation #1: How Deep Learning Works
+
+    Everyone is talking of Artificial Intelligence today as the next Big Thing!
+    This session explains, from the point of view of a programmer, what a Neuron is,
+    how a Neural Network can be built and how to use frameworks such as TensorFlow
+    and TFLearn to quickly experiment with Deep Learning.
+
+Presentation #2: Building a Chatbot using Deep Learning
+
+    Smart devices of today, powered by e.g. Google Assistant, Apple Siri or Amazon Alexa,
+    can chat with us in quite surprising ways. It is therefore interesting for a developer
+    to understand how chatbots work. In this session, we will build a chatbot using
+    Deep Learning techniques.
+
+The focus was to start from the fundamentals and demystify everything. Hence, instead
+of reinventing the wheel, I simply followed the four following articles I found online:
+
+    How Neural Networks Work
+    https://chatbotslife.com/how-neural-networks-work-ff4c7ad371f7
+
+        One neuron only and introducing the sigmoid function
+
+    Tensorflow demystified
+    https://chatbotslife.com/tensorflow-demystified-80987184faf7
+
+        Using tensorflow and building the neural network by hand
+
+    Deep Learning in 7 lines of code
+    https://chatbotslife.com/deep-learning-in-7-lines-of-code-7879a8ef8cfb
+
+        Using TFLearn to build the neural network (which itself uses tensorflow internally)
+
+    Contextual Chatbots with Tensorflow
+    https://chatbotsmagazine.com/contextual-chat-bots-with-tensorflow-4391749d0077
+
+        (1) build a context-free chatbot
+        (2) build a contextualized chatbot
+
+--
+Avinash Meetoo
+avinashmeetoo@gmail.com
+www.avinashmeetoo.com
+25 April 2019
